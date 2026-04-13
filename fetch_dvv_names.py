@@ -69,9 +69,14 @@ def _pick_best(resources: list[Resource], kind: str) -> Resource | None:
     """
     kind: 'first' or 'last'
     """
-    kind_terms = ["etunimi", "forename", "first"] if kind == "first" else ["sukunimi", "surname", "last"]
+    # DVV resources are typically named "Etunimitilasto ..." and "Sukunimitilasto ..."
+    kind_terms = (
+        ["etunimi", "etunimitilasto", "forename", "first"]
+        if kind == "first"
+        else ["sukunimi", "sukunimitilasto", "surname", "last"]
+    )
 
-    def score(res: Resource) -> tuple[int, int]:
+    def score(res: Resource) -> tuple[int, int, int]:
         name_l = (res.name or "").lower()
         url_l = (res.url or "").lower()
         fmt_l = (res.format or "").lower()
@@ -80,9 +85,16 @@ def _pick_best(resources: list[Resource], kind: str) -> Resource | None:
             s += 3
         if any(t in name_l or t in url_l for t in kind_terms):
             s += 3
+        # Penalize selecting the opposite kind if both exist
+        if kind == "first" and ("sukunimi" in name_l or "sukunimi" in url_l):
+            s -= 5
+        if kind == "last" and ("etunimi" in name_l or "etunimi" in url_l):
+            s -= 5
         # Prefer newer resources if CKAN timestamps exist (string compare works for ISO timestamps)
         ts = res.last_modified or res.created or ""
-        return (s, 1 if ts else 0)
+        # Secondary tie-breaker: prefer more specific titles
+        specific = 1 if ("tilasto" in name_l) else 0
+        return (s, 1 if ts else 0, specific)
 
     ranked = sorted(resources, key=score, reverse=True)
     return ranked[0] if ranked else None
