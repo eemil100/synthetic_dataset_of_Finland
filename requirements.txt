@@ -2,3 +2,6 @@ requests
 pandas
 numpy
 openpyxl
+streamlit
+folium
+streamlit-folium
