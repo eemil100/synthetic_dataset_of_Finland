@@ -1,0 +1,438 @@
+Area,Industry,value
+MK01 Uusimaa,Industries total,829992.0
+MK01 Uusimaa,"A Agriculture, forestry and fishing (01-03) (Level 1)",3949.0
+MK01 Uusimaa,B Mining and quarrying (05-09) (Level 1),339.0
+MK01 Uusimaa,C Manufacturing (10-33) (Level 1),67403.0
+MK01 Uusimaa,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",4947.0
+MK01 Uusimaa,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",3038.0
+MK01 Uusimaa,F Construction (41-43) (Level 1),53945.0
+MK01 Uusimaa,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),95218.0
+MK01 Uusimaa,H Transportation and storage (49-53) (Level 1),44983.0
+MK01 Uusimaa,I Accommodation and food service activities (55-56) (Level 1),32398.0
+MK01 Uusimaa,J Information and communication (58-63) (Level 1),63890.0
+MK01 Uusimaa,K Financial and insurance activities (64-66) (Level 1),27215.0
+MK01 Uusimaa,L Real estate activities (68) (Level 1),10655.0
+MK01 Uusimaa,"M Professional, scientific and technical activities (69-75) (Level 1)",72083.0
+MK01 Uusimaa,N Administrative and support service activities (77-82) (Level 1),70364.0
+MK01 Uusimaa,O Public administration and defence; compulsory social security (84) (Level 1),43445.0
+MK01 Uusimaa,P Education (85) (Level 1),57908.0
+MK01 Uusimaa,Q Human health and social work activities (86-88) (Level 1),120365.0
+MK01 Uusimaa,"R Arts, entertainment and recreation (90-93) (Level 1)",20181.0
+MK01 Uusimaa,S Other service activities (94-96) (Level 1),23978.0
+MK01 Uusimaa,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),1477.0
+MK01 Uusimaa,U Activities of extraterritorial organisations and bodies (99) (Level 1),428.0
+MK01 Uusimaa,X Unknown (Level 1),11783.0
+MK02 Southwest Finland,Industries total,214560.0
+MK02 Southwest Finland,"A Agriculture, forestry and fishing (01-03) (Level 1)",5179.0
+MK02 Southwest Finland,B Mining and quarrying (05-09) (Level 1),352.0
+MK02 Southwest Finland,C Manufacturing (10-33) (Level 1),31321.0
+MK02 Southwest Finland,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",612.0
+MK02 Southwest Finland,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",1010.0
+MK02 Southwest Finland,F Construction (41-43) (Level 1),14621.0
+MK02 Southwest Finland,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),22748.0
+MK02 Southwest Finland,H Transportation and storage (49-53) (Level 1),11031.0
+MK02 Southwest Finland,I Accommodation and food service activities (55-56) (Level 1),7651.0
+MK02 Southwest Finland,J Information and communication (58-63) (Level 1),7356.0
+MK02 Southwest Finland,K Financial and insurance activities (64-66) (Level 1),3998.0
+MK02 Southwest Finland,L Real estate activities (68) (Level 1),2119.0
+MK02 Southwest Finland,"M Professional, scientific and technical activities (69-75) (Level 1)",12486.0
+MK02 Southwest Finland,N Administrative and support service activities (77-82) (Level 1),16143.0
+MK02 Southwest Finland,O Public administration and defence; compulsory social security (84) (Level 1),9319.0
+MK02 Southwest Finland,P Education (85) (Level 1),15757.0
+MK02 Southwest Finland,Q Human health and social work activities (86-88) (Level 1),40559.0
+MK02 Southwest Finland,"R Arts, entertainment and recreation (90-93) (Level 1)",3507.0
+MK02 Southwest Finland,S Other service activities (94-96) (Level 1),5385.0
+MK02 Southwest Finland,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),655.0
+MK02 Southwest Finland,U Activities of extraterritorial organisations and bodies (99) (Level 1),12.0
+MK02 Southwest Finland,X Unknown (Level 1),2739.0
+MK05 Kanta-Häme,Industries total,70456.0
+MK05 Kanta-Häme,"A Agriculture, forestry and fishing (01-03) (Level 1)",1967.0
+MK05 Kanta-Häme,B Mining and quarrying (05-09) (Level 1),75.0
+MK05 Kanta-Häme,C Manufacturing (10-33) (Level 1),10769.0
+MK05 Kanta-Häme,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",223.0
+MK05 Kanta-Häme,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",782.0
+MK05 Kanta-Häme,F Construction (41-43) (Level 1),5046.0
+MK05 Kanta-Häme,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),8471.0
+MK05 Kanta-Häme,H Transportation and storage (49-53) (Level 1),3212.0
+MK05 Kanta-Häme,I Accommodation and food service activities (55-56) (Level 1),2375.0
+MK05 Kanta-Häme,J Information and communication (58-63) (Level 1),2040.0
+MK05 Kanta-Häme,K Financial and insurance activities (64-66) (Level 1),917.0
+MK05 Kanta-Häme,L Real estate activities (68) (Level 1),725.0
+MK05 Kanta-Häme,"M Professional, scientific and technical activities (69-75) (Level 1)",3270.0
+MK05 Kanta-Häme,N Administrative and support service activities (77-82) (Level 1),4964.0
+MK05 Kanta-Häme,O Public administration and defence; compulsory social security (84) (Level 1),4267.0
+MK05 Kanta-Häme,P Education (85) (Level 1),4790.0
+MK05 Kanta-Häme,Q Human health and social work activities (86-88) (Level 1),12690.0
+MK05 Kanta-Häme,"R Arts, entertainment and recreation (90-93) (Level 1)",1071.0
+MK05 Kanta-Häme,S Other service activities (94-96) (Level 1),1942.0
+MK05 Kanta-Häme,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),156.0
+MK05 Kanta-Häme,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK05 Kanta-Häme,X Unknown (Level 1),704.0
+MK07 Päijät-Häme,Industries total,80272.0
+MK07 Päijät-Häme,"A Agriculture, forestry and fishing (01-03) (Level 1)",2056.0
+MK07 Päijät-Häme,B Mining and quarrying (05-09) (Level 1),67.0
+MK07 Päijät-Häme,C Manufacturing (10-33) (Level 1),12646.0
+MK07 Päijät-Häme,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",338.0
+MK07 Päijät-Häme,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",633.0
+MK07 Päijät-Häme,F Construction (41-43) (Level 1),6084.0
+MK07 Päijät-Häme,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),9201.0
+MK07 Päijät-Häme,H Transportation and storage (49-53) (Level 1),4096.0
+MK07 Päijät-Häme,I Accommodation and food service activities (55-56) (Level 1),2965.0
+MK07 Päijät-Häme,J Information and communication (58-63) (Level 1),2364.0
+MK07 Päijät-Häme,K Financial and insurance activities (64-66) (Level 1),874.0
+MK07 Päijät-Häme,L Real estate activities (68) (Level 1),799.0
+MK07 Päijät-Häme,"M Professional, scientific and technical activities (69-75) (Level 1)",3927.0
+MK07 Päijät-Häme,N Administrative and support service activities (77-82) (Level 1),5882.0
+MK07 Päijät-Häme,O Public administration and defence; compulsory social security (84) (Level 1),3130.0
+MK07 Päijät-Häme,P Education (85) (Level 1),5057.0
+MK07 Päijät-Häme,Q Human health and social work activities (86-88) (Level 1),15493.0
+MK07 Päijät-Häme,"R Arts, entertainment and recreation (90-93) (Level 1)",1471.0
+MK07 Päijät-Häme,S Other service activities (94-96) (Level 1),1957.0
+MK07 Päijät-Häme,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),159.0
+MK07 Päijät-Häme,U Activities of extraterritorial organisations and bodies (99) (Level 1),3.0
+MK07 Päijät-Häme,X Unknown (Level 1),1070.0
+MK08 Kymenlaakso,Industries total,61114.0
+MK08 Kymenlaakso,"A Agriculture, forestry and fishing (01-03) (Level 1)",1420.0
+MK08 Kymenlaakso,B Mining and quarrying (05-09) (Level 1),74.0
+MK08 Kymenlaakso,C Manufacturing (10-33) (Level 1),8318.0
+MK08 Kymenlaakso,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",556.0
+MK08 Kymenlaakso,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",506.0
+MK08 Kymenlaakso,F Construction (41-43) (Level 1),4028.0
+MK08 Kymenlaakso,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),5894.0
+MK08 Kymenlaakso,H Transportation and storage (49-53) (Level 1),5095.0
+MK08 Kymenlaakso,I Accommodation and food service activities (55-56) (Level 1),2122.0
+MK08 Kymenlaakso,J Information and communication (58-63) (Level 1),1084.0
+MK08 Kymenlaakso,K Financial and insurance activities (64-66) (Level 1),478.0
+MK08 Kymenlaakso,L Real estate activities (68) (Level 1),585.0
+MK08 Kymenlaakso,"M Professional, scientific and technical activities (69-75) (Level 1)",2704.0
+MK08 Kymenlaakso,N Administrative and support service activities (77-82) (Level 1),4877.0
+MK08 Kymenlaakso,O Public administration and defence; compulsory social security (84) (Level 1),3864.0
+MK08 Kymenlaakso,P Education (85) (Level 1),3635.0
+MK08 Kymenlaakso,Q Human health and social work activities (86-88) (Level 1),12564.0
+MK08 Kymenlaakso,"R Arts, entertainment and recreation (90-93) (Level 1)",958.0
+MK08 Kymenlaakso,S Other service activities (94-96) (Level 1),1526.0
+MK08 Kymenlaakso,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),153.0
+MK08 Kymenlaakso,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK08 Kymenlaakso,X Unknown (Level 1),673.0
+MK09 South Karelia,Industries total,47791.0
+MK09 South Karelia,"A Agriculture, forestry and fishing (01-03) (Level 1)",1381.0
+MK09 South Karelia,B Mining and quarrying (05-09) (Level 1),115.0
+MK09 South Karelia,C Manufacturing (10-33) (Level 1),7630.0
+MK09 South Karelia,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",248.0
+MK09 South Karelia,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",280.0
+MK09 South Karelia,F Construction (41-43) (Level 1),3015.0
+MK09 South Karelia,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),4645.0
+MK09 South Karelia,H Transportation and storage (49-53) (Level 1),2522.0
+MK09 South Karelia,I Accommodation and food service activities (55-56) (Level 1),1857.0
+MK09 South Karelia,J Information and communication (58-63) (Level 1),1256.0
+MK09 South Karelia,K Financial and insurance activities (64-66) (Level 1),487.0
+MK09 South Karelia,L Real estate activities (68) (Level 1),445.0
+MK09 South Karelia,"M Professional, scientific and technical activities (69-75) (Level 1)",2116.0
+MK09 South Karelia,N Administrative and support service activities (77-82) (Level 1),3348.0
+MK09 South Karelia,O Public administration and defence; compulsory social security (84) (Level 1),2795.0
+MK09 South Karelia,P Education (85) (Level 1),3790.0
+MK09 South Karelia,Q Human health and social work activities (86-88) (Level 1),9257.0
+MK09 South Karelia,"R Arts, entertainment and recreation (90-93) (Level 1)",704.0
+MK09 South Karelia,S Other service activities (94-96) (Level 1),1263.0
+MK09 South Karelia,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),94.0
+MK09 South Karelia,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK09 South Karelia,X Unknown (Level 1),543.0
+MK04 Satakunta,Industries total,85612.0
+MK04 Satakunta,"A Agriculture, forestry and fishing (01-03) (Level 1)",2840.0
+MK04 Satakunta,B Mining and quarrying (05-09) (Level 1),150.0
+MK04 Satakunta,C Manufacturing (10-33) (Level 1),16491.0
+MK04 Satakunta,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",1454.0
+MK04 Satakunta,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",689.0
+MK04 Satakunta,F Construction (41-43) (Level 1),5962.0
+MK04 Satakunta,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),8129.0
+MK04 Satakunta,H Transportation and storage (49-53) (Level 1),4722.0
+MK04 Satakunta,I Accommodation and food service activities (55-56) (Level 1),2892.0
+MK04 Satakunta,J Information and communication (58-63) (Level 1),1507.0
+MK04 Satakunta,K Financial and insurance activities (64-66) (Level 1),778.0
+MK04 Satakunta,L Real estate activities (68) (Level 1),625.0
+MK04 Satakunta,"M Professional, scientific and technical activities (69-75) (Level 1)",3332.0
+MK04 Satakunta,N Administrative and support service activities (77-82) (Level 1),6419.0
+MK04 Satakunta,O Public administration and defence; compulsory social security (84) (Level 1),3366.0
+MK04 Satakunta,P Education (85) (Level 1),5304.0
+MK04 Satakunta,Q Human health and social work activities (86-88) (Level 1),16498.0
+MK04 Satakunta,"R Arts, entertainment and recreation (90-93) (Level 1)",1141.0
+MK04 Satakunta,S Other service activities (94-96) (Level 1),1965.0
+MK04 Satakunta,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),392.0
+MK04 Satakunta,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK04 Satakunta,X Unknown (Level 1),956.0
+MK06 Pirkanmaa,Industries total,237011.0
+MK06 Pirkanmaa,"A Agriculture, forestry and fishing (01-03) (Level 1)",4110.0
+MK06 Pirkanmaa,B Mining and quarrying (05-09) (Level 1),172.0
+MK06 Pirkanmaa,C Manufacturing (10-33) (Level 1),33963.0
+MK06 Pirkanmaa,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",1108.0
+MK06 Pirkanmaa,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",1094.0
+MK06 Pirkanmaa,F Construction (41-43) (Level 1),14343.0
+MK06 Pirkanmaa,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),24903.0
+MK06 Pirkanmaa,H Transportation and storage (49-53) (Level 1),10093.0
+MK06 Pirkanmaa,I Accommodation and food service activities (55-56) (Level 1),8571.0
+MK06 Pirkanmaa,J Information and communication (58-63) (Level 1),13767.0
+MK06 Pirkanmaa,K Financial and insurance activities (64-66) (Level 1),3972.0
+MK06 Pirkanmaa,L Real estate activities (68) (Level 1),2467.0
+MK06 Pirkanmaa,"M Professional, scientific and technical activities (69-75) (Level 1)",15832.0
+MK06 Pirkanmaa,N Administrative and support service activities (77-82) (Level 1),18555.0
+MK06 Pirkanmaa,O Public administration and defence; compulsory social security (84) (Level 1),9666.0
+MK06 Pirkanmaa,P Education (85) (Level 1),17251.0
+MK06 Pirkanmaa,Q Human health and social work activities (86-88) (Level 1),43703.0
+MK06 Pirkanmaa,"R Arts, entertainment and recreation (90-93) (Level 1)",4580.0
+MK06 Pirkanmaa,S Other service activities (94-96) (Level 1),5434.0
+MK06 Pirkanmaa,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),475.0
+MK06 Pirkanmaa,U Activities of extraterritorial organisations and bodies (99) (Level 1),5.0
+MK06 Pirkanmaa,X Unknown (Level 1),2947.0
+MK13 Central Finland,Industries total,109014.0
+MK13 Central Finland,"A Agriculture, forestry and fishing (01-03) (Level 1)",3265.0
+MK13 Central Finland,B Mining and quarrying (05-09) (Level 1),161.0
+MK13 Central Finland,C Manufacturing (10-33) (Level 1),14296.0
+MK13 Central Finland,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",408.0
+MK13 Central Finland,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",703.0
+MK13 Central Finland,F Construction (41-43) (Level 1),6925.0
+MK13 Central Finland,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),10888.0
+MK13 Central Finland,H Transportation and storage (49-53) (Level 1),4479.0
+MK13 Central Finland,I Accommodation and food service activities (55-56) (Level 1),3767.0
+MK13 Central Finland,J Information and communication (58-63) (Level 1),4844.0
+MK13 Central Finland,K Financial and insurance activities (64-66) (Level 1),863.0
+MK13 Central Finland,L Real estate activities (68) (Level 1),1214.0
+MK13 Central Finland,"M Professional, scientific and technical activities (69-75) (Level 1)",5904.0
+MK13 Central Finland,N Administrative and support service activities (77-82) (Level 1),6973.0
+MK13 Central Finland,O Public administration and defence; compulsory social security (84) (Level 1),5705.0
+MK13 Central Finland,P Education (85) (Level 1),10173.0
+MK13 Central Finland,Q Human health and social work activities (86-88) (Level 1),21571.0
+MK13 Central Finland,"R Arts, entertainment and recreation (90-93) (Level 1)",2199.0
+MK13 Central Finland,S Other service activities (94-96) (Level 1),2880.0
+MK13 Central Finland,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),368.0
+MK13 Central Finland,U Activities of extraterritorial organisations and bodies (99) (Level 1),1.0
+MK13 Central Finland,X Unknown (Level 1),1427.0
+MK14 South Ostrobothnia,Industries total,78688.0
+MK14 South Ostrobothnia,"A Agriculture, forestry and fishing (01-03) (Level 1)",5302.0
+MK14 South Ostrobothnia,B Mining and quarrying (05-09) (Level 1),292.0
+MK14 South Ostrobothnia,C Manufacturing (10-33) (Level 1),14429.0
+MK14 South Ostrobothnia,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",315.0
+MK14 South Ostrobothnia,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",410.0
+MK14 South Ostrobothnia,F Construction (41-43) (Level 1),4995.0
+MK14 South Ostrobothnia,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),8257.0
+MK14 South Ostrobothnia,H Transportation and storage (49-53) (Level 1),3899.0
+MK14 South Ostrobothnia,I Accommodation and food service activities (55-56) (Level 1),2327.0
+MK14 South Ostrobothnia,J Information and communication (58-63) (Level 1),1080.0
+MK14 South Ostrobothnia,K Financial and insurance activities (64-66) (Level 1),847.0
+MK14 South Ostrobothnia,L Real estate activities (68) (Level 1),567.0
+MK14 South Ostrobothnia,"M Professional, scientific and technical activities (69-75) (Level 1)",2716.0
+MK14 South Ostrobothnia,N Administrative and support service activities (77-82) (Level 1),4095.0
+MK14 South Ostrobothnia,O Public administration and defence; compulsory social security (84) (Level 1),2803.0
+MK14 South Ostrobothnia,P Education (85) (Level 1),5319.0
+MK14 South Ostrobothnia,Q Human health and social work activities (86-88) (Level 1),16959.0
+MK14 South Ostrobothnia,"R Arts, entertainment and recreation (90-93) (Level 1)",1004.0
+MK14 South Ostrobothnia,S Other service activities (94-96) (Level 1),2001.0
+MK14 South Ostrobothnia,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),316.0
+MK14 South Ostrobothnia,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK14 South Ostrobothnia,X Unknown (Level 1),755.0
+MK15 Ostrobothnia,Industries total,79119.0
+MK15 Ostrobothnia,"A Agriculture, forestry and fishing (01-03) (Level 1)",3703.0
+MK15 Ostrobothnia,B Mining and quarrying (05-09) (Level 1),55.0
+MK15 Ostrobothnia,C Manufacturing (10-33) (Level 1),17420.0
+MK15 Ostrobothnia,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",462.0
+MK15 Ostrobothnia,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",501.0
+MK15 Ostrobothnia,F Construction (41-43) (Level 1),4680.0
+MK15 Ostrobothnia,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),6656.0
+MK15 Ostrobothnia,H Transportation and storage (49-53) (Level 1),2879.0
+MK15 Ostrobothnia,I Accommodation and food service activities (55-56) (Level 1),2585.0
+MK15 Ostrobothnia,J Information and communication (58-63) (Level 1),2161.0
+MK15 Ostrobothnia,K Financial and insurance activities (64-66) (Level 1),1124.0
+MK15 Ostrobothnia,L Real estate activities (68) (Level 1),467.0
+MK15 Ostrobothnia,"M Professional, scientific and technical activities (69-75) (Level 1)",3587.0
+MK15 Ostrobothnia,N Administrative and support service activities (77-82) (Level 1),4941.0
+MK15 Ostrobothnia,O Public administration and defence; compulsory social security (84) (Level 1),3029.0
+MK15 Ostrobothnia,P Education (85) (Level 1),6277.0
+MK15 Ostrobothnia,Q Human health and social work activities (86-88) (Level 1),14760.0
+MK15 Ostrobothnia,"R Arts, entertainment and recreation (90-93) (Level 1)",1011.0
+MK15 Ostrobothnia,S Other service activities (94-96) (Level 1),1950.0
+MK15 Ostrobothnia,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),83.0
+MK15 Ostrobothnia,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK15 Ostrobothnia,X Unknown (Level 1),788.0
+MK10 South Savo,Industries total,48895.0
+MK10 South Savo,"A Agriculture, forestry and fishing (01-03) (Level 1)",3139.0
+MK10 South Savo,B Mining and quarrying (05-09) (Level 1),56.0
+MK10 South Savo,C Manufacturing (10-33) (Level 1),6743.0
+MK10 South Savo,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",211.0
+MK10 South Savo,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",321.0
+MK10 South Savo,F Construction (41-43) (Level 1),2772.0
+MK10 South Savo,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),4687.0
+MK10 South Savo,H Transportation and storage (49-53) (Level 1),2303.0
+MK10 South Savo,I Accommodation and food service activities (55-56) (Level 1),1677.0
+MK10 South Savo,J Information and communication (58-63) (Level 1),880.0
+MK10 South Savo,K Financial and insurance activities (64-66) (Level 1),384.0
+MK10 South Savo,L Real estate activities (68) (Level 1),442.0
+MK10 South Savo,"M Professional, scientific and technical activities (69-75) (Level 1)",1846.0
+MK10 South Savo,N Administrative and support service activities (77-82) (Level 1),2801.0
+MK10 South Savo,O Public administration and defence; compulsory social security (84) (Level 1),2273.0
+MK10 South Savo,P Education (85) (Level 1),3381.0
+MK10 South Savo,Q Human health and social work activities (86-88) (Level 1),11957.0
+MK10 South Savo,"R Arts, entertainment and recreation (90-93) (Level 1)",835.0
+MK10 South Savo,S Other service activities (94-96) (Level 1),1307.0
+MK10 South Savo,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),264.0
+MK10 South Savo,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK10 South Savo,X Unknown (Level 1),616.0
+MK11 North Savo,Industries total,100338.0
+MK11 North Savo,"A Agriculture, forestry and fishing (01-03) (Level 1)",5204.0
+MK11 North Savo,B Mining and quarrying (05-09) (Level 1),378.0
+MK11 North Savo,C Manufacturing (10-33) (Level 1),11906.0
+MK11 North Savo,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",437.0
+MK11 North Savo,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",565.0
+MK11 North Savo,F Construction (41-43) (Level 1),6691.0
+MK11 North Savo,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),10113.0
+MK11 North Savo,H Transportation and storage (49-53) (Level 1),4462.0
+MK11 North Savo,I Accommodation and food service activities (55-56) (Level 1),3133.0
+MK11 North Savo,J Information and communication (58-63) (Level 1),2585.0
+MK11 North Savo,K Financial and insurance activities (64-66) (Level 1),1498.0
+MK11 North Savo,L Real estate activities (68) (Level 1),890.0
+MK11 North Savo,"M Professional, scientific and technical activities (69-75) (Level 1)",4931.0
+MK11 North Savo,N Administrative and support service activities (77-82) (Level 1),7598.0
+MK11 North Savo,O Public administration and defence; compulsory social security (84) (Level 1),4630.0
+MK11 North Savo,P Education (85) (Level 1),7513.0
+MK11 North Savo,Q Human health and social work activities (86-88) (Level 1),22271.0
+MK11 North Savo,"R Arts, entertainment and recreation (90-93) (Level 1)",1525.0
+MK11 North Savo,S Other service activities (94-96) (Level 1),2516.0
+MK11 North Savo,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),420.0
+MK11 North Savo,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK11 North Savo,X Unknown (Level 1),1072.0
+MK12 North Karelia,Industries total,61359.0
+MK12 North Karelia,"A Agriculture, forestry and fishing (01-03) (Level 1)",2978.0
+MK12 North Karelia,B Mining and quarrying (05-09) (Level 1),197.0
+MK12 North Karelia,C Manufacturing (10-33) (Level 1),8819.0
+MK12 North Karelia,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",214.0
+MK12 North Karelia,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",331.0
+MK12 North Karelia,F Construction (41-43) (Level 1),3620.0
+MK12 North Karelia,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),5901.0
+MK12 North Karelia,H Transportation and storage (49-53) (Level 1),2456.0
+MK12 North Karelia,I Accommodation and food service activities (55-56) (Level 1),2233.0
+MK12 North Karelia,J Information and communication (58-63) (Level 1),1644.0
+MK12 North Karelia,K Financial and insurance activities (64-66) (Level 1),615.0
+MK12 North Karelia,L Real estate activities (68) (Level 1),539.0
+MK12 North Karelia,"M Professional, scientific and technical activities (69-75) (Level 1)",2271.0
+MK12 North Karelia,N Administrative and support service activities (77-82) (Level 1),3892.0
+MK12 North Karelia,O Public administration and defence; compulsory social security (84) (Level 1),3524.0
+MK12 North Karelia,P Education (85) (Level 1),5160.0
+MK12 North Karelia,Q Human health and social work activities (86-88) (Level 1),13390.0
+MK12 North Karelia,"R Arts, entertainment and recreation (90-93) (Level 1)",1012.0
+MK12 North Karelia,S Other service activities (94-96) (Level 1),1672.0
+MK12 North Karelia,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),162.0
+MK12 North Karelia,U Activities of extraterritorial organisations and bodies (99) (Level 1),31.0
+MK12 North Karelia,X Unknown (Level 1),698.0
+MK16 Central Ostrobothnia,Industries total,27762.0
+MK16 Central Ostrobothnia,"A Agriculture, forestry and fishing (01-03) (Level 1)",1630.0
+MK16 Central Ostrobothnia,B Mining and quarrying (05-09) (Level 1),59.0
+MK16 Central Ostrobothnia,C Manufacturing (10-33) (Level 1),4972.0
+MK16 Central Ostrobothnia,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",187.0
+MK16 Central Ostrobothnia,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",174.0
+MK16 Central Ostrobothnia,F Construction (41-43) (Level 1),1697.0
+MK16 Central Ostrobothnia,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),2984.0
+MK16 Central Ostrobothnia,H Transportation and storage (49-53) (Level 1),1362.0
+MK16 Central Ostrobothnia,I Accommodation and food service activities (55-56) (Level 1),770.0
+MK16 Central Ostrobothnia,J Information and communication (58-63) (Level 1),599.0
+MK16 Central Ostrobothnia,K Financial and insurance activities (64-66) (Level 1),272.0
+MK16 Central Ostrobothnia,L Real estate activities (68) (Level 1),154.0
+MK16 Central Ostrobothnia,"M Professional, scientific and technical activities (69-75) (Level 1)",938.0
+MK16 Central Ostrobothnia,N Administrative and support service activities (77-82) (Level 1),1530.0
+MK16 Central Ostrobothnia,O Public administration and defence; compulsory social security (84) (Level 1),831.0
+MK16 Central Ostrobothnia,P Education (85) (Level 1),2275.0
+MK16 Central Ostrobothnia,Q Human health and social work activities (86-88) (Level 1),5983.0
+MK16 Central Ostrobothnia,"R Arts, entertainment and recreation (90-93) (Level 1)",317.0
+MK16 Central Ostrobothnia,S Other service activities (94-96) (Level 1),745.0
+MK16 Central Ostrobothnia,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),34.0
+MK16 Central Ostrobothnia,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK16 Central Ostrobothnia,X Unknown (Level 1),249.0
+MK17 North Ostrobothnia,Industries total,170733.0
+MK17 North Ostrobothnia,"A Agriculture, forestry and fishing (01-03) (Level 1)",6302.0
+MK17 North Ostrobothnia,B Mining and quarrying (05-09) (Level 1),911.0
+MK17 North Ostrobothnia,C Manufacturing (10-33) (Level 1),22070.0
+MK17 North Ostrobothnia,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",724.0
+MK17 North Ostrobothnia,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",1062.0
+MK17 North Ostrobothnia,F Construction (41-43) (Level 1),12882.0
+MK17 North Ostrobothnia,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),16517.0
+MK17 North Ostrobothnia,H Transportation and storage (49-53) (Level 1),7933.0
+MK17 North Ostrobothnia,I Accommodation and food service activities (55-56) (Level 1),5268.0
+MK17 North Ostrobothnia,J Information and communication (58-63) (Level 1),6701.0
+MK17 North Ostrobothnia,K Financial and insurance activities (64-66) (Level 1),2473.0
+MK17 North Ostrobothnia,L Real estate activities (68) (Level 1),1493.0
+MK17 North Ostrobothnia,"M Professional, scientific and technical activities (69-75) (Level 1)",9358.0
+MK17 North Ostrobothnia,N Administrative and support service activities (77-82) (Level 1),10796.0
+MK17 North Ostrobothnia,O Public administration and defence; compulsory social security (84) (Level 1),6567.0
+MK17 North Ostrobothnia,P Education (85) (Level 1),14800.0
+MK17 North Ostrobothnia,Q Human health and social work activities (86-88) (Level 1),35862.0
+MK17 North Ostrobothnia,"R Arts, entertainment and recreation (90-93) (Level 1)",2580.0
+MK17 North Ostrobothnia,S Other service activities (94-96) (Level 1),4173.0
+MK17 North Ostrobothnia,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),463.0
+MK17 North Ostrobothnia,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK17 North Ostrobothnia,X Unknown (Level 1),1798.0
+MK18 Kainuu,Industries total,26914.0
+MK18 Kainuu,"A Agriculture, forestry and fishing (01-03) (Level 1)",1399.0
+MK18 Kainuu,B Mining and quarrying (05-09) (Level 1),906.0
+MK18 Kainuu,C Manufacturing (10-33) (Level 1),2325.0
+MK18 Kainuu,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",87.0
+MK18 Kainuu,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",159.0
+MK18 Kainuu,F Construction (41-43) (Level 1),1851.0
+MK18 Kainuu,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),2405.0
+MK18 Kainuu,H Transportation and storage (49-53) (Level 1),1204.0
+MK18 Kainuu,I Accommodation and food service activities (55-56) (Level 1),917.0
+MK18 Kainuu,J Information and communication (58-63) (Level 1),638.0
+MK18 Kainuu,K Financial and insurance activities (64-66) (Level 1),270.0
+MK18 Kainuu,L Real estate activities (68) (Level 1),210.0
+MK18 Kainuu,"M Professional, scientific and technical activities (69-75) (Level 1)",1031.0
+MK18 Kainuu,N Administrative and support service activities (77-82) (Level 1),2480.0
+MK18 Kainuu,O Public administration and defence; compulsory social security (84) (Level 1),1976.0
+MK18 Kainuu,P Education (85) (Level 1),1878.0
+MK18 Kainuu,Q Human health and social work activities (86-88) (Level 1),5662.0
+MK18 Kainuu,"R Arts, entertainment and recreation (90-93) (Level 1)",485.0
+MK18 Kainuu,S Other service activities (94-96) (Level 1),689.0
+MK18 Kainuu,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),122.0
+MK18 Kainuu,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK18 Kainuu,X Unknown (Level 1),220.0
+MK19 Lapland,Industries total,73312.0
+MK19 Lapland,"A Agriculture, forestry and fishing (01-03) (Level 1)",2549.0
+MK19 Lapland,B Mining and quarrying (05-09) (Level 1),1918.0
+MK19 Lapland,C Manufacturing (10-33) (Level 1),6334.0
+MK19 Lapland,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",448.0
+MK19 Lapland,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",474.0
+MK19 Lapland,F Construction (41-43) (Level 1),5106.0
+MK19 Lapland,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),6808.0
+MK19 Lapland,H Transportation and storage (49-53) (Level 1),3620.0
+MK19 Lapland,I Accommodation and food service activities (55-56) (Level 1),3987.0
+MK19 Lapland,J Information and communication (58-63) (Level 1),1256.0
+MK19 Lapland,K Financial and insurance activities (64-66) (Level 1),486.0
+MK19 Lapland,L Real estate activities (68) (Level 1),721.0
+MK19 Lapland,"M Professional, scientific and technical activities (69-75) (Level 1)",3117.0
+MK19 Lapland,N Administrative and support service activities (77-82) (Level 1),6265.0
+MK19 Lapland,O Public administration and defence; compulsory social security (84) (Level 1),4643.0
+MK19 Lapland,P Education (85) (Level 1),5148.0
+MK19 Lapland,Q Human health and social work activities (86-88) (Level 1),15614.0
+MK19 Lapland,"R Arts, entertainment and recreation (90-93) (Level 1)",1602.0
+MK19 Lapland,S Other service activities (94-96) (Level 1),1869.0
+MK19 Lapland,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),234.0
+MK19 Lapland,U Activities of extraterritorial organisations and bodies (99) (Level 1),0.0
+MK19 Lapland,X Unknown (Level 1),1113.0
+MK21 Åland,Industries total,14423.0
+MK21 Åland,"A Agriculture, forestry and fishing (01-03) (Level 1)",511.0
+MK21 Åland,B Mining and quarrying (05-09) (Level 1),12.0
+MK21 Åland,C Manufacturing (10-33) (Level 1),992.0
+MK21 Åland,"D Electricity,  gas, steam and air conditioning supply (35) (Level 1)",118.0
+MK21 Åland,"E Water supply; sewerage, waste management and remediation activities (36-39) (Level 1)",54.0
+MK21 Åland,F Construction (41-43) (Level 1),988.0
+MK21 Åland,G Wholesale and retail trade; repair of motor vehicles and motorcycles (45-47) (Level 1),1230.0
+MK21 Åland,H Transportation and storage (49-53) (Level 1),1321.0
+MK21 Åland,I Accommodation and food service activities (55-56) (Level 1),660.0
+MK21 Åland,J Information and communication (58-63) (Level 1),641.0
+MK21 Åland,K Financial and insurance activities (64-66) (Level 1),606.0
+MK21 Åland,L Real estate activities (68) (Level 1),156.0
+MK21 Åland,"M Professional, scientific and technical activities (69-75) (Level 1)",484.0
+MK21 Åland,N Administrative and support service activities (77-82) (Level 1),487.0
+MK21 Åland,O Public administration and defence; compulsory social security (84) (Level 1),843.0
+MK21 Åland,P Education (85) (Level 1),1075.0
+MK21 Åland,Q Human health and social work activities (86-88) (Level 1),2957.0
+MK21 Åland,"R Arts, entertainment and recreation (90-93) (Level 1)",389.0
+MK21 Åland,S Other service activities (94-96) (Level 1),455.0
+MK21 Åland,T Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use(97-98) (Level 1),13.0
+MK21 Åland,U Activities of extraterritorial organisations and bodies (99) (Level 1),1.0
+MK21 Åland,X Unknown (Level 1),430.0

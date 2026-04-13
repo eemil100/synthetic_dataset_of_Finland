@@ -11,10 +11,17 @@ from typing import Any, Iterable, Optional
 import requests
 
 
-TOPIC_QUERIES = [
+DEFAULT_TOPIC_QUERIES = [
     "Population structure",
     "Age distribution",
     "Household income",
+    # Additional grounding dimensions for synthetic personas
+    "Education",
+    "Educational level",
+    "Occupation",
+    "Employment",
+    "Language",
+    "Mother tongue",
 ]
 
 GEO_QUERIES = [
@@ -285,6 +292,13 @@ def main(argv: Optional[list[str]] = None) -> int:
         help="PXWeb API base URL to crawl. Can be provided multiple times.",
     )
     p.add_argument(
+        "--topic",
+        action="append",
+        default=[],
+        help="Topic query term to match (can be provided multiple times). "
+        "If omitted, uses a default list (population/age/income/education/occupation/language).",
+    )
+    p.add_argument(
         "--max-pages",
         type=int,
         default=500,
@@ -316,12 +330,13 @@ def main(argv: Optional[list[str]] = None) -> int:
     args = p.parse_args(argv)
 
     bases = [_norm_base(b) for b in (args.base or [])] or DEFAULT_BASES
+    topic_queries = args.topic or DEFAULT_TOPIC_QUERIES
     crawl_results: list[CrawlResult] = []
 
     for base in bases:
         cr = discover_tables(
             api_base=base,
-            topic_queries=TOPIC_QUERIES,
+            topic_queries=topic_queries,
             max_pages=args.max_pages,
             sleep_s=max(0.0, args.sleep),
             timeout_s=max(1.0, args.timeout),
@@ -338,7 +353,7 @@ def main(argv: Optional[list[str]] = None) -> int:
 
     write_summary(
         out_path=args.out,
-        topic_queries=TOPIC_QUERIES,
+        topic_queries=topic_queries,
         crawl_results=crawl_results,
         max_pages=args.max_pages,
         geo_only=bool(args.geo_only),

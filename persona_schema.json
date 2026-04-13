@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "description": "Statistically grounded persona skeleton (no free-text guessing).",
+  "properties": {
+    "age": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 120
+    },
+    "gender": {
+      "type": "string"
+    },
+    "municipality": {
+      "type": "string",
+      "description": "StatFin area label (municipality)"
+    },
+    "education_level": {
+      "type": "string"
+    },
+    "main_activity": {
+      "type": "string",
+      "description": "Main type of activity (proxy for occupation)"
+    },
+    "income_decile": {
+      "type": "string"
+    },
+    "income_bracket": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Unknown"
+      ]
+    },
+    "language_group": {
+      "type": "string",
+      "description": "Finnish/Swedish speaking counts from StatFin table; remaining languages are not separately represented here."
+    }
+  },
+  "example": {
+    "age": 34,
+    "gender": "Females",
+    "municipality": "Tampere",
+    "main_activity": "Employed",
+    "income_bracket": "High",
+    "language_group": "Finnish-speaking population",
+    "education_level": "Upper secondary education"
+  }
+}
