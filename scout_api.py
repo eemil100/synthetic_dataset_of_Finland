@@ -72,6 +72,7 @@ def _norm_base(url: str) -> str:
     return url.rstrip("/")
 
 
+
 def _join(base: str, path: str) -> str:
     base = _norm_base(base)
     path = path.strip("/")
