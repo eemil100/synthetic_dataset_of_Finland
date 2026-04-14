@@ -5,3 +5,4 @@ openpyxl
 streamlit
 folium
 streamlit-folium
+python-dotenv

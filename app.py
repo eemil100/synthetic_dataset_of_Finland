@@ -19,6 +19,12 @@ DEFAULT_GEOJSON_URL = "https://raw.githubusercontent.com/varmais/maakunnat/maste
 
 GEMINI_API = "https://generativelanguage.googleapis.com/v1beta"
 
+def _normalize_gemini_model(model: str) -> str:
+    m = (model or "").strip()
+    if not m:
+        return "models/gemini-2.5-flash"
+    return m if m.startswith("models/") else f"models/{m}"
+
 
 def _read_text(path: str) -> str:
     return Path(path).read_text(encoding="utf-8")
@@ -123,7 +129,8 @@ def gemini_simulate(
     persona: dict[str, Any],
     timeout_s: float,
 ) -> dict[str, Any]:
-    url = f"{GEMINI_API}/models/{model}:generateContent"
+    model_name = _normalize_gemini_model(model)
+    url = f"{GEMINI_API}/{model_name}:generateContent"
     payload = {
         "systemInstruction": {"parts": [{"text": system_prompt}]},
         "contents": [
@@ -344,7 +351,7 @@ with st.sidebar:
 
     st.header("LLM")
     use_llm = st.checkbox("Use Gemini (LLM) for simulation", value=False)
-    gemini_model = st.text_input("Gemini model", value="gemini-1.5-flash")
+    gemini_model = st.text_input("Gemini model", value="gemini-2.5-flash")
     api_key_env = st.text_input("API key env var", value="GEMINI_API_KEY")
     sleep_s = st.slider("Sleep between LLM calls (sec)", 0.0, 2.0, 0.2, 0.1)
     seed = st.number_input("Seed", value=42, step=1)

@@ -1,8 +1,11 @@
 from __future__ import annotations
+from dotenv import load_dotenv
+load_dotenv()
 
 import argparse
 import json
 import os
+import re
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -14,6 +17,40 @@ import requests
 
 
 GEMINI_API = "https://generativelanguage.googleapis.com/v1beta"
+
+def _normalize_gemini_model(model: str) -> str:
+    m = (model or "").strip()
+    if not m:
+        return "models/gemini-2.5-flash"
+    return m if m.startswith("models/") else f"models/{m}"
+
+_FENCE_RE = re.compile(r"^\s*```(?:json)?\s*|\s*```\s*$", re.IGNORECASE | re.MULTILINE)
+_TRAILING_COMMA_RE = re.compile(r",(\s*[}\]])")
+
+
+def _extract_json_object(text: str) -> str:
+    """
+    Best-effort extraction of a single top-level JSON object from model text.
+    Handles occasional code fences and trailing commas.
+    """
+    if text is None:
+        return ""
+    s = str(text).strip()
+    s = _FENCE_RE.sub("", s).strip()
+
+    # If model returns extra text, take the first {...} block.
+    start = s.find("{")
+    end = s.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        s = s[start : end + 1]
+
+    # Remove common trailing commas: {"a":1,}
+    for _ in range(5):
+        new_s = _TRAILING_COMMA_RE.sub(r"\1", s)
+        if new_s == s:
+            break
+        s = new_s
+    return s
 
 
 def read_text(path: str) -> str:
@@ -84,7 +121,8 @@ def gemini_generate_json(
     user_obj: dict[str, Any],
     timeout_s: float,
 ) -> dict[str, Any]:
-    url = f"{GEMINI_API}/models/{model}:generateContent"
+    model_name = _normalize_gemini_model(model)
+    url = f"{GEMINI_API}/{model_name}:generateContent"
     payload = {
         "systemInstruction": {"parts": [{"text": system_prompt}]},
         "contents": [{"role": "user", "parts": [{"text": json.dumps(user_obj, ensure_ascii=False)}]}],
@@ -95,18 +133,31 @@ def gemini_generate_json(
             "responseMimeType": "application/json",
         },
     }
-    r = requests.post(url, params={"key": api_key}, json=payload, timeout=timeout_s)
-    r.raise_for_status()
-    data = r.json()
-    # Extract text from first candidate
-    try:
-        text = data["candidates"][0]["content"]["parts"][0]["text"]
-    except Exception:
-        raise RuntimeError(f"Unexpected Gemini response shape: {data}")
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError as e:
-        raise RuntimeError(f"Model did not return JSON. error={e} text={text[:200]}")
+
+    backoff_s = 1.0
+    last_err: Exception | None = None
+    for attempt in range(1, 6):
+        try:
+            r = requests.post(url, params={"key": api_key}, json=payload, timeout=timeout_s)
+            if r.status_code in (429, 500, 502, 503, 504):
+                raise requests.HTTPError(f"retryable status {r.status_code}", response=r)
+            r.raise_for_status()
+            data = r.json()
+            try:
+                text = data["candidates"][0]["content"]["parts"][0]["text"]
+            except Exception:
+                raise RuntimeError(f"Unexpected Gemini response shape: {data}")
+
+            cleaned = _extract_json_object(text)
+            return json.loads(cleaned)
+        except Exception as e:
+            last_err = e
+            if attempt >= 5:
+                break
+            time.sleep(backoff_s)
+            backoff_s = min(20.0, backoff_s * 2)
+
+    raise RuntimeError(f"Gemini call failed after retries: {last_err}")
 
 
 def main() -> int:
@@ -114,7 +165,7 @@ def main() -> int:
     ap.add_argument("--in-csv", default="personas_10000.csv", help="Input skeleton CSV")
     ap.add_argument("--out-jsonl", default="personas_enriched.jsonl", help="Output JSONL path")
     ap.add_argument("--system-prompt", default="phase3_prompt_system.txt", help="System prompt file")
-    ap.add_argument("--model", default="gemini-1.5-flash", help="Gemini model name")
+    ap.add_argument("--model", default="gemini-2.5-flash", help="Gemini model name (e.g. gemini-2.5-flash)")
     ap.add_argument("--api-key-env", default="GEMINI_API_KEY", help="Env var holding Gemini API key")
     ap.add_argument("--limit", type=int, default=0, help="Limit rows (0=all)")
     ap.add_argument("--resume", action="store_true", help="Resume by skipping already-written rows")
