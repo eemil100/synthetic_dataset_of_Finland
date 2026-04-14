@@ -67,6 +67,7 @@ def _score(text: str, queries: Iterable[str]) -> int:
     return score
 
 
+
 def _norm_base(url: str) -> str:
     return url.rstrip("/")
 
