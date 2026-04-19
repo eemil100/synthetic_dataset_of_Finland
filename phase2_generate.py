@@ -450,6 +450,37 @@ def main() -> int:
         }
     )
 
+    # ---------------------------------------------------------
+    # POST-SAMPLING CORRECTIONS (Fixing the Independent Sampling bug of {Age, Education, Activity, Income} dimensions)
+    # ---------------------------------------------------------
+    
+    # 1. Babies and Toddlers (Age 0-6)
+    mask_child = df_out["age"] < 7
+    df_out.loc[mask_child, "main_activity"] = "Child (Outside labour force)"
+    df_out.loc[mask_child, "education_level"] = "No degree (Early childhood)"
+    df_out.loc[mask_child, "income_decile"] = "Unknown"
+    df_out.loc[mask_child, "income_bracket"] = "Unknown"
+
+    # 2. School-aged Children (Age 7-15)
+    mask_pupil = (df_out["age"] >= 7) & (df_out["age"] <= 15)
+    df_out.loc[mask_pupil, "main_activity"] = "Pupil/Student"
+    df_out.loc[mask_pupil, "education_level"] = "Comprehensive school (ongoing)"
+    df_out.loc[mask_pupil, "income_decile"] = "Unknown"
+    df_out.loc[mask_pupil, "income_bracket"] = "Unknown"
+
+    # 3. Young Adults / High Schoolers (Age 16-18)
+    # Demote anyone with a Bachelor's/Master's who is under 19
+    mask_teen = (df_out["age"] >= 16) & (df_out["age"] <= 18)
+    mask_too_educated = mask_teen & df_out["education_level"].str.contains(r"Bachelor|Master|Doctor", case=False, na=False)
+    df_out.loc[mask_too_educated, "education_level"] = "Upper secondary education"
+    
+    # 4. Retirees (Age 65+)
+    # Statistically, the vast majority are pensioners.
+    mask_retiree = df_out["age"] >= 65
+    df_out.loc[mask_retiree, "main_activity"] = "Pensioners"
+    
+    # ---------------------------------------------------------
+
     # Save CSV
     df_out.to_csv(args.out_csv, index=False)
 
