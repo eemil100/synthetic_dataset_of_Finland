@@ -226,8 +226,8 @@ def main() -> int:
                     timeout_s=max(5.0, args.timeout),
                 )
             except Exception as e:
-                # minimal retry with lower temperature by asking again
-                time.sleep(1.0)
+                print(f"Row {i} failed: {e}. Cooling down for 60 seconds...")
+                time.sleep(60.0) # Give the API a real break
                 enriched = gemini_generate_json(
                     api_key=api_key,
                     model=args.model,
