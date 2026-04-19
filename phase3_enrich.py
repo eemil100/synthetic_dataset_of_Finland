@@ -129,7 +129,7 @@ def gemini_generate_json(
         "generationConfig": {
             "temperature": 0.7,
             "topP": 0.9,
-            "maxOutputTokens": 512,
+            "maxOutputTokens": 4096,
             "responseMimeType": "application/json",
         },
     }
