@@ -1,0 +1,6 @@
+# Secrets
+.env
+
+# Python junk
+__pycache__/
+*.pyc
